@@ -1,0 +1,19 @@
+{
+  "name": "celeris-api",
+  "version": "1.0.0",
+  "description": "API RESTful do sistema Celeris - Triagem Inteligente do Judiciário",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "author": "Sofia Massaro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
+  }
+}
